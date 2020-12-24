@@ -28,7 +28,7 @@ require_once('lib/nusoap.php');
 				echo "<h2>Result<h2/>";
 				print_r($result);
 			   // Call the SOAP method (complex type)
- 			   $result_complex = $client->call('infoEtudiant', array('prenom'=>'Hatem'));
+ 			   $result_complex = $client->call('infoEtudiant', array('prenom'=>'hajer'));
  			   // Display the result
  			  echo "<h2>Result<h2/>";
  			  print_r($result_complex);
